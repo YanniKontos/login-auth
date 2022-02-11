@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="wrapper">
+        <h1>email = admin, password = password</h1>
+        <div class="login-str">
+            <form class='form'>
+                <div class="email">
+                    <label class='form-email'>Enter Email Here :</label>
+                    <input id='email-validation' type="text-email" placeholder="Email Address">
+                </div>
+                
+                <div class="password">
+                    <label class='form-password'>Enter Password Here :</label>
+                    <input id='pwd-validation' type="text-password" placeholder="Enter Password">
+                    <p id='fail'></p>
+                    <button id='submit-button' class='button-submit' onclick='submitForm()'>Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
